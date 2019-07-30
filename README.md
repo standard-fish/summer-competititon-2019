@@ -34,5 +34,7 @@ Need help getting started?
 * [Quick: An Introduction to Racket with Pictures](https://docs.racket-lang.org/quick/) 
 * [Pict: Functional Pictures](https://docs.racket-lang.org/pict/)
 * [2htdp/image](https://docs.racket-lang.org/teachpack/2htdpimage.html)
-<https://github.com/standard-fish/paper-doll> - provided by Matthew Flatt: 'In case it's of interest, enclosed is some code extracted from one of my talks. Start by running "demo.rkt". Someone might be interested to play with it or turn it into something better. Since there is no documentation, that someone would have to read the code to extract the various acceptable values for arguments. The most obvious direction for improvement is that choices like hair style and color should have been separated into different arguments."
+* <https://github.com/standard-fish/paper-doll> - provided by Matthew Flatt:
+> 'In case it's of interest, enclosed is some code extracted from one of my talks. Start by running "demo.rkt". Someone might be interested to play with it or turn it into something better. Since there is no documentation, that someone would have to read the code to extract the various acceptable values for arguments. The most obvious direction for improvement is that choices like hair style and color should have been separated into different arguments."
+
 Having trouble? - ask a question on racket-users. You can also try stack-overflow and reddit but YMMV.

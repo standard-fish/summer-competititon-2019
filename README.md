@@ -5,7 +5,7 @@
 Competition: Make an image with Racket this summer! Win stickers! 
 
 Rules: 
-* you can make images any way you like. I suggest pict or htdp2e/image, but you can use whatever you like!
+* you can make images any way you like. I suggest `pict` or `2htdp/image`, but you can use whatever you like!
 * Images can be of anything.  Images do not have to be of fish. There is no advantage in fish images.
 * You can enter as many times as you like.
 

@@ -1,14 +1,39 @@
 #lang video
-(playlist (clip "images/logo.png" #:properties (hash "length" 1))
+#:properties (hash "width" 1920
+                   "height" 1080)
+(playlist (clip "images/world.png" #:properties (hash "length" 1))
           (fade-transition 0.5)
-          (clip "images/hello.png" #:properties (hash "length" 2))
+          (multitrack
+           (clip "images/world.png" #:properties (hash "length" 2))
+           (overlay-merge 180 130 256 256)
+           (clip "images/outlinelogo.png" #:properties (hash "length" 2)))
+          (fade-transition 1.5)
+          (multitrack
+           (clip "images/world.png" #:properties (hash "length" 5))
+           (overlay-merge 180 130 256 256)
+           (clip "images/logo.png" #:properties (hash "length" 5))
+           )
+          (fade-transition 1.5)
+          (multitrack
+           (clip "images/world.png" #:properties (hash "length" 5))
+           (overlay-merge 30 100 600 300)
+           (clip "images/hello.png" #:properties (hash "length" 5))
+           )
           (fade-transition 0.5)
-          (clip "images/quilt.png" #:properties (hash "length" 2))
+          (clip "images/quilt.png" #:properties (hash "length" 5))
           (fade-transition 0.5)
-          (clip "images/face.png" #:properties (hash "length" 2))
+          (clip "images/face.png" #:properties (hash "length" 5))
           (fade-transition 0.5)
-          (clip "images/racket-lightsaber.png" #:properties (hash "length" 2))
+          (clip "images/racket-lightsaber.png" #:properties (hash "length" 5))
           (fade-transition 0.5)
-          (clip "images/world.png" #:properties (hash "length" 2))
+          (clip "images/world.png" #:properties (hash "length" 5))
           (fade-transition 0.5)
-          (clip "images/baseball-cap.png" #:properties (hash "length" 2)))
+          (clip "images/logo.png" #:properties (hash "length" 5))
+
+          (fade-transition 0.5)
+          (multitrack
+           (clip "images/world.png" #:properties (hash "length" 5))
+           (overlay-merge 50 120 500 300)
+           (clip "images/racket-cap.png" #:properties (hash "length" 5))
+           ))
+

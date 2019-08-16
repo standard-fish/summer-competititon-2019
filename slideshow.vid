@@ -1,39 +1,72 @@
 #lang video
 #:properties (hash "width" 1920
                    "height" 1080)
-(playlist (clip "images/world.png" #:properties (hash "length" 1))
-          (fade-transition 0.5)
-          (multitrack
-           (clip "images/world.png" #:properties (hash "length" 2))
-           (overlay-merge 180 130 256 256)
-           (clip "images/outlinelogo.png" #:properties (hash "length" 2)))
-          (fade-transition 1.5)
-          (multitrack
-           (clip "images/world.png" #:properties (hash "length" 5))
-           (overlay-merge 180 130 256 256)
-           (clip "images/logo.png" #:properties (hash "length" 5))
-           )
-          (fade-transition 1.5)
-          (multitrack
-           (clip "images/world.png" #:properties (hash "length" 5))
-           (overlay-merge 30 100 600 300)
-           (clip "images/hello.png" #:properties (hash "length" 5))
-           )
-          (fade-transition 0.5)
-          (clip "images/quilt.png" #:properties (hash "length" 5))
-          (fade-transition 0.5)
-          (clip "images/face.png" #:properties (hash "length" 5))
-          (fade-transition 0.5)
-          (clip "images/racket-lightsaber.png" #:properties (hash "length" 5))
-          (fade-transition 0.5)
-          (clip "images/world.png" #:properties (hash "length" 5))
-          (fade-transition 0.5)
-          (clip "images/logo.png" #:properties (hash "length" 5))
 
-          (fade-transition 0.5)
-          (multitrack
-           (clip "images/world.png" #:properties (hash "length" 5))
-           (overlay-merge 50 120 500 300)
-           (clip "images/racket-cap.png" #:properties (hash "length" 5))
-           ))
+(define world  (multitrack
+  (color "white" #:properties (hash "length" 2 "width" 1920 "height" 1080))
+  (overlay-merge 0 30 600 400)
+  (clip "images/world.png" #:properties (hash "length" 2))))
+
+(playlist
+
+world
+
+ (multitrack
+  (color "white" #:properties (hash "length" 2 "width" 1920 "height" 1080))
+  (overlay-merge 0 30 400 300)
+  (clip "images/world.png" #:properties (hash "length" 2)))
+
+ ;(clip "images/world.png" #:properties (hash "length" 1 "width" 1920 "height" 1080))
+ (fade-transition 0.5)
+ (multitrack
+  (clip "images/world.png" #:properties (hash "length" 2 "width" 1920 "height" 1080))
+  (overlay-merge 190 130 256 256)
+  (clip "images/outlinelogo.png" #:properties (hash "length" 2)))
+ (fade-transition 1.5)
+ (multitrack
+  (clip "images/world.png" #:properties (hash "length" 5 "width" 1920 "height" 1080))
+  (overlay-merge 190 130 256 256)
+  (clip "images/logo.png" #:properties (hash "length" 5))
+  )
+ (fade-transition 1.5)
+ (multitrack
+  (clip "images/world.png" #:properties (hash "length" 5 "width" 1920 "height" 1080))
+  (overlay-merge 30 100 600 300)
+  (clip "images/hello.png" #:properties (hash "length" 5))
+  )
+ (fade-transition 0.5)
+ ;
+ ; 641 × 641
+ (clip "images/quilt.png" #:properties (hash "length" 5 "width" 1920 "height" 1080))
+ (fade-transition 0.5)
+ 
+ ; 354 × 382 
+ (multitrack
+  (clip "images/world.png" #:properties (hash "length" 5 "width" 1920 "height" 1080))
+  (overlay-merge 130 80 354 382)
+  (clip "images/face.png" #:properties (hash "length" 5 "width" 354 "height" 382))
+  )
+  
+ 
+
+ (fade-transition 0.5)
+
+ ;1200 × 1200
+ (clip "images/racket-lightsaber.png" #:properties (hash "length" 5 "width" 1920 "height" 1080))
+ (fade-transition 0.5)
+ (clip "images/world.png" #:properties (hash "length" 5 "width" 1920 "height" 1080))
+ (fade-transition 0.5)
+
+ (multitrack
+  (clip "images/world.png" #:properties (hash "length" 5 "width" 1920 "height" 1080))
+  (overlay-merge 190 120 256 256)
+  (clip "images/logo.png" #:properties (hash "length" 5))
+  )
+ 
+ (fade-transition 0.5)
+ (multitrack
+  (clip "images/world.png" #:properties (hash "length" 5 "width" 1920 "height" 1080))
+  (overlay-merge 50 120 500 300)
+  (clip "images/racket-cap.png" #:properties (hash "length" 5))
+  ))
 

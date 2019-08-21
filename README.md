@@ -11,6 +11,8 @@ Rules:
 
 It is easy to enter - just post your entry on racket-users, either by email or via google groups, with the prefix '[standard-fish]' just like this email. 
 
+[racket-users](https://groups.google.com/forum/m/#!forum/racket-users)
+
 Please remember to put [standard-fish] at the begining of the email subject line so I can easily identfy your entry.
 
 You can paste your code onto the the end of your message, or inlcude a link to a GitLab or GitHub repository/file,  a GitHub Gist, or anything else appropriate.
@@ -50,4 +52,3 @@ https://docs.racket-lang.org/lindenmayer
 > The Lindenmayer language provides a language for running and interpreting Lindenmayer Systems. In general L-systems are useful for modeling plant growth, procedural content generation, and making pretty pictures:
 
 ![branch](https://docs.racket-lang.org/lindenmayer/pict.png)
-

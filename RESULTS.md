@@ -6,17 +6,17 @@ Entries have been collated at as forked repositories at https://github.com/stand
 
 The winners are
 
-quilt by Daniel Prager https://github.com/standard-fish/summer-competititon-2019/tree/master/entries/danprager
-tessellation by Zachary Romero https://github.com/zkry/tessellation
-waffle-racket by Connie https://github.com/standard-fish/waffle-racket
-Pixel Fish by Sam Phillips https://github.com/samdphillips/pixel-fish
-lightsaber and baseball-cap by Justin Zamora https://github.com/standard-fish/lightsaber & https://github.com/zamora/baseball-cap
-standard lightbulb by Philip McGrath https://gist.github.com/LiberalArtist/4d0059f5af23043515a3cc74bd4928c2
-racket-logo-plot.rkt by Laurent Orseau https://gist.github.com/Metaxal/01309b175e268be502b406f036072f17
-world-map.rkt by Alex Harsányi https://gist.github.com/alex-hhh/2c0f5a02d9e795cbedf90cf84ef84281
-face.rkt by Bert https://github.com/standard-fish/summer-competititon-2019/blob/master/entries/bedeke/face.rkt
-door.rkt  by Hendrik Boom https://github.com/standard-fish/summer-competititon-2019/tree/master/entries/hboom
-metapict-examples by Jens Axel Søgaard https://github.com/soegaard/metapict/tree/master/metapict/examples
+* `quilt` by Daniel Prager https://github.com/standard-fish/summer-competititon-2019/tree/master/entries/danprager
+* `tessellation` by Zachary Romero https://github.com/zkry/tessellation
+* `waffle-racket` by Connie https://github.com/standard-fish/waffle-racket
+* `Pixel Fish` by Sam Phillips https://github.com/samdphillips/pixel-fish
+* `lightsaber` and `baseball-cap` by Justin Zamora https://github.com/standard-fish/lightsaber & https://github.com/zamora/baseball-cap
+* `standard lightbulb` by Philip McGrath https://gist.github.com/LiberalArtist/4d0059f5af23043515a3cc74bd4928c2
+* `racket-logo-plot.rkt` by Laurent Orseau https://gist.github.com/Metaxal/01309b175e268be502b406f036072f17
+* `world-map.rkt` by Alex Harsányi https://gist.github.com/alex-hhh/2c0f5a02d9e795cbedf90cf84ef84281
+* `face.rkt` by Bert https://github.com/standard-fish/summer-competititon-2019/blob/master/entries/bedeke/face.rkt
+* `door.rkt`  by Hendrik Boom https://github.com/standard-fish/summer-competititon-2019/tree/master/entries/hboom
+* `metapict-examples` by Jens Axel Søgaard https://github.com/soegaard/metapict/tree/master/metapict/examples
 
 A big thank you to all who contributed.
 

@@ -19,6 +19,17 @@ Libraries that can be used to make images:
 * [Lindenmayer](https://docs.racket-lang.org/lindenmayer) - _The Lindenmayer language provides a language for running and interpreting Lindenmayer Systems. In general L-systems are useful for modeling plant growth, procedural content generation, and making pretty pictures:_
 * [Planet Cute Images](https://docs.racket-lang.org/teachpack/2htdpPlanet_Cute_Images.html) - The 2htdp/planetcute library contains the Planet Cute art by Daniel Cook (Lostgarden.com).
 
+
+How to save a pict
+```
+;; convert the 'pict' image to a 'bitmap' image
+(define bitmap-waffle (pict->bitmap the-waffle))
+
+;; tell the bitmap waffle to save itself to a .png file
+(send bitmap-waffle save-file "images/waffle.png" 'png)
+```
+
+
 ![Planet Cute Images](https://docs.racket-lang.org/teachpack/pict.png)
 
 ![branch](https://docs.racket-lang.org/lindenmayer/pict.png)

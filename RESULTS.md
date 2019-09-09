@@ -18,7 +18,13 @@ The winners are
 * `door.rkt`  by Hendrik Boom https://github.com/standard-fish/summer-competititon-2019/tree/master/entries/hboom
 * `metapict-examples` by Jens Axel Søgaard https://github.com/soegaard/metapict/tree/master/metapict/examples
 
-A big thank you to all who contributed.
+EDIT: Community choice winners!
+
+* 1st: tessellation by Zachary Romero https://github.com/zkry/tessellation
+* 2nd: lightsaber by Justin Zamora https://github.com/standard-fish/lightsaber
+* Best Entry with Butter and Local Maine Maple Syrup: waffle-racket by Connie https://github.com/conniepocky/waffle-racket
+
+Thank you to all who participated.
 
 Stephen
 

@@ -1,6 +1,6 @@
 # Summer standard fish competition 2019
 
-![Ifish saying hello](https://docs.racket-lang.org/pict/pict_151.png)
+![Ifish saying hello](./images/hello.png)
 
 Competition: Make an image with Racket this summer! Win stickers! 
 

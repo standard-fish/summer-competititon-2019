@@ -2,7 +2,7 @@
 
 [_A community-led Racket event. Click to see others, past & future._](https://docs.google.com/document/d/1OAGSAXk7AfhVLEcjyeihh2IXKX9ZhUM0ZvKnObP6kxk/edit)
 
-![Ifish saying hello](https://docs.racket-lang.org/pict/pict_151.png)
+![Ifish saying hello](./images/hello.png)
 
 Competition: Make an image with Racket this summer! Win stickers! 
 
